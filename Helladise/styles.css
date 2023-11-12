@@ -1,0 +1,43 @@
+body { 
+    background-image: url(Images/Accueil.png);
+    background-position : top ;
+    font-family: trailmade, script;
+    font-size: 26px;
+}
+
+.logo {
+    height: 120px;
+}
+
+.jouer {
+    border : 2px solid white;
+    color : white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.jouer:hover {
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+}
+
+form {
+    color : white;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 600px;
+    background-color: white 0,6;
+}
+
+.choix {
+    border: 1px solid white;
+    border-radius: 25px;
+    width : 150px;
+    text-align: center;
+    margin: 10px;
+}
+
