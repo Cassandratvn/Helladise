@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helladise</title>
+    <link href="css/main.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="enfer">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex">
+            <a href="enfer2.html"><h1 class="h1-titre-police mx-5">Activités</h1></a>
+            <img src="Images/Logo.png" alt="Image" class="img-fluid mt-5 logo">
+            <a href="enfer3.html"><h1 class="h1-titre-police mx-5">Dossier</h1></a>
+        </div>
+    </nav>
+    <div class="container text-center mt-5">
+        <h2 class=" h1-titre-police">Voici votre dossier d’admission aux enfers</h2>
+        <h2 class="orange">On comprend pourquoi vous êtes ici</h2>
+    </div>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="bg-black p-4 text-center card">
+                    <h3 class="h1-titre-police orange">Prénom</h3>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-left orange">Réponses </p>
+                        <p class="text-right orange">Groupes sanguin</p>
+                    </div>
+                    <div class="d-flex justify-content-between white">
+                        <p class="text-left">Enfer: <span id="rEnfer"></span>
+                            <br> Paradis: <span id="rParadis"></span></p>
+                        <p class="text-right">Choix</p>
+                    </div>
+                    <h4 class="h1-titre-police orange">Vos Mauvaises Actions (MA)</h4>
+                    <p class="white">Créations de mauvaises actions aléatoires à chaque rafraîchissement de
+                        page</p>
+                </div>
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><br>
+    <footer class="container-fluid text-center mt-5">
+        <img src="images/Logo.png" alt="Image" class="img-fluid">
+        <h5>Mentions Légales</h5>
+        <p><a href="paradis.html">Allez aux Paradis</a></p>
+    </footer>
+    <script>
+        let rEnfer = document.getElementById('rEnfer');
+        let rParadis = document.getElementById('rParadis');
+        rEnfer.textContent = localStorage.getItem('enfer');
+        rParadis.textContent = localStorage.getItem('paradis');
+    </script>
+</body>
+</html>
