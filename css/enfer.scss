@@ -1,0 +1,77 @@
+.enfer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, $couleurFond4, $couleurFond1);
+  .logo {
+    width: 15%;
+  }
+  .hades {
+    width: 50%;
+  }
+  .corne {
+    width: 20%;
+  }
+  .overCorne {
+    position: relative;
+    top: -55px;
+  }
+  .police-parfumerie {
+    font-family: $police3;
+    font-size: 80px;
+    color: $couleur2;
+  }
+  p {
+    font-family: $police1;
+  }
+  nav {
+    a {
+      text-decoration: none;
+    }
+  }
+  .h2-titre-police {
+    font-family: $police2;
+    font-size: 50px;
+    color: $couleur1;
+  }
+  .h1-titre-police {
+    font-family: $police2;
+    font-size: 35px;
+    color: $couleur1;
+  }
+  .card {
+    border-radius: 60px;
+  }
+  .custom-card {
+    border-radius: 90px; 
+    .h1-titre-police {
+      color: $couleur2;
+    }
+    p {
+      color: $couleur1;
+    }
+  }
+  .white {
+    color: $couleur1;
+  }
+  .orange {
+    color: $couleur2;
+  }
+  .btn-orange {
+    background-color: $couleur2;
+    border: none;
+  }
+  footer {
+    background-color: $couleurFond1;
+    img {
+      width: 20%;
+    }
+    h5 {
+      color: $couleur1;
+    }
+    p a {
+      color: $couleur1;
+      text-decoration: none;
+    }
+  }  
+}

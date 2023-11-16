@@ -1,0 +1,207 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/MontserratRegular.ttf);
+}
+@font-face {
+  font-family: trailmade;
+  src: url(../fonts/TrailmadeRegular.otf);
+}
+@font-face {
+  font-family: parfumerie;
+  src: url(../fonts/ParfumerieScriptPro.ttf);
+}
+.paradis {
+  background: linear-gradient(to top, #FFD93D, #ffffff);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.paradis .logo {
+  width: 15%;
+}
+.paradis .zeus {
+  width: 50%;
+}
+.paradis .ange {
+  width: 20%;
+}
+.paradis .overAnge {
+  position: relative;
+  top: -55px;
+}
+.paradis .police-parfumerie {
+  font-family: parfumerie;
+  font-size: 80px;
+  color: #FFD93D;
+}
+.paradis p {
+  font-family: montserrat;
+}
+.paradis nav a {
+  text-decoration: none;
+}
+.paradis .h2-titre-police {
+  font-family: trailmade;
+  font-size: 50px;
+}
+.paradis .h1-titre-police {
+  font-family: trailmade;
+  font-size: 35px;
+  color: #FFD93D;
+}
+.paradis .custom-card {
+  border-radius: 90px;
+}
+.paradis .card {
+  border-radius: 60px;
+}
+.paradis .yellow {
+  color: #FFD93D;
+}
+.paradis .btn-yellow {
+  background-color: #FFD93D;
+  border: none;
+}
+.paradis footer {
+  background-color: #ffffff;
+}
+.paradis footer img {
+  width: 20%;
+}
+.paradis footer p a {
+  color: #FFD93D;
+  text-decoration: none;
+}
+
+.enfer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, #FB0C00, #000000);
+}
+.enfer .logo {
+  width: 15%;
+}
+.enfer .hades {
+  width: 50%;
+}
+.enfer .corne {
+  width: 20%;
+}
+.enfer .overCorne {
+  position: relative;
+  top: -55px;
+}
+.enfer .police-parfumerie {
+  font-family: parfumerie;
+  font-size: 80px;
+  color: #FF4901;
+}
+.enfer p {
+  font-family: montserrat;
+}
+.enfer nav a {
+  text-decoration: none;
+}
+.enfer .h2-titre-police {
+  font-family: trailmade;
+  font-size: 50px;
+  color: #ffffff;
+}
+.enfer .h1-titre-police {
+  font-family: trailmade;
+  font-size: 35px;
+  color: #ffffff;
+}
+.enfer .card {
+  border-radius: 60px;
+}
+.enfer .custom-card {
+  border-radius: 90px;
+}
+.enfer .custom-card .h1-titre-police {
+  color: #FF4901;
+}
+.enfer .custom-card p {
+  color: #ffffff;
+}
+.enfer .white {
+  color: #ffffff;
+}
+.enfer .orange {
+  color: #FF4901;
+}
+.enfer .btn-orange {
+  background-color: #FF4901;
+  border: none;
+}
+.enfer footer {
+  background-color: #000000;
+}
+.enfer footer img {
+  width: 20%;
+}
+.enfer footer h5 {
+  color: #ffffff;
+}
+.enfer footer p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.helladise {
+  background-image: url("../Images/Accueil.png");
+  background-position: top;
+  font-family: trailmade, script;
+  font-size: 1.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.helladise .center {
+  text-align: center;
+}
+.helladise .center .logo {
+  height: 120px;
+}
+.helladise .center .jouer {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.helladise .center .jouer:hover {
+  color: #000000;
+  border: 2px solid #000000;
+  text-align: center;
+}
+
+form {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+form .choix {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  width: 300px;
+  text-align: left;
+  margin: 10px;
+  font-size: 1.9rem;
+}
+form button {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+  background: transparent;
+  font-size: 1.9rem;
+}

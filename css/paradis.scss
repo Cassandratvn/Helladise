@@ -1,0 +1,65 @@
+.paradis {
+  background: linear-gradient(to top, $couleurFond3, $couleur1);  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .logo {
+    width: 15%;
+  }
+  .zeus {
+    width: 50%;
+  }
+  .ange {
+    width: 20%;
+  }
+  .overAnge {
+    position: relative;
+    top: -55px;
+  }
+  .police-parfumerie {
+    font-family: $police3;
+    font-size: 80px;
+    color: $couleurFond3;
+  }
+  p {
+    font-family: $police1;
+  }
+  nav {
+    a {
+      text-decoration: none;
+    }
+  }
+  .h2-titre-police {
+    font-family: $police2;
+    font-size: 50px;
+  }
+  .h1-titre-police {
+    font-family: $police2;
+    font-size: 35px;
+    color: $couleurFond3;
+  }
+  .custom-card {
+    border-radius: 90px; 
+  }
+  .card {
+    border-radius: 60px;
+  }
+  .yellow {
+    color: $couleurFond3;
+  }
+  .btn-yellow {
+    background-color: $couleurFond3;
+    border: none;
+  }
+  footer {
+    background-color: $couleur1;
+    img {
+      width: 20%;
+    }
+    p a {
+      color: $couleurFond3;
+      text-decoration: none;
+    }
+  }
+}
+  

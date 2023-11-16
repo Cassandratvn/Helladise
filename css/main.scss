@@ -1,0 +1,61 @@
+// imports des sous fichiers SCSS
+// les commentaires en // ne sont pas compilés. Ceux en /**/ le sont
+@import "config.scss";
+@import "paradis.scss";
+@import "enfer.scss";
+
+.helladise { 
+  background-image: url('../Images/Accueil.png');
+  background-position : top ;
+  font-family: $police2, script;
+  font-size: 1.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  .center {
+    text-align: center;
+    .logo {
+      height: 120px;
+    }
+    .jouer {
+      border : 2px solid $couleur1;
+      color : $couleur1;
+      text-decoration: none;
+      border-radius: $taille3;
+      padding: $taille1;
+      padding-left: $taille5;
+      padding-right: $taille5;
+      &:hover {
+        color: $couleurFond1;
+        border: 2px solid $couleurFond1;
+        text-align: center;
+      }
+    }
+  }
+}
+form {
+  color : $couleur1;
+  border: 1px solid $couleur1;
+  border-radius: $taille4;
+  width: 50vw;
+  background-color: $couleurFond2;
+  .choix {
+    border: 1px solid $couleur1;
+    border-radius: $taille4;
+    width : 300px;
+    text-align: left;
+    margin: $taille2;
+    font-size: 1.9rem;
+  }
+  button {
+    color: $couleur1;
+    border: 1px solid $couleur1;
+    border-radius: $taille4;
+    width : 150px;
+    text-align: center;
+    margin: $taille2;
+    background: transparent;
+    font-size: 1.9rem;
+  }
+}

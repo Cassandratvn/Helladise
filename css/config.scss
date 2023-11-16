@@ -1,0 +1,30 @@
+// Polices
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/MontserratRegular.ttf);
+}
+@font-face {
+  font-family: trailmade;
+  src: url(../fonts/TrailmadeRegular.otf);
+}
+@font-face {
+  font-family: parfumerie;
+  src: url(../fonts/ParfumerieScriptPro.ttf);
+}
+$police1: montserrat;
+$police2: trailmade;
+$police3: parfumerie;
+// Couleurs
+$couleurFond1 : #000000;
+$couleurFond2 : rgba(0,0,0,.4);
+$couleurFond3: #FFD93D;
+$couleurFond4: #FB0C00;
+$couleur1 : #ffffff;
+$couleur2: #FF4901;
+
+// Marges et arrondis
+$taille1: 5px;
+$taille2: 10px;
+$taille3: 20px;
+$taille4: 25px;
+$taille5: 40px;
